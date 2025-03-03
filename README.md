@@ -2,6 +2,8 @@
 
 This is the **frontend** for my AI-powered calorie tracking system, built with (and hosted on) **Lovable** for a clean and interactive design. The system allows seamless food logging via **voice input** or **barcode scanning**, using AI to extract calorie and macronutrient data, which is stored in **Supabase** and displayed in a **real-time dashboard**.  
 
+### **real-time dashboard:** ![image](/public/Dashboard-CalorieTracker.jpg)
+
 ## 🚀 How It Works  
 1️⃣ **Tell Siri what you ate** (e.g., “I had 100g of yogurt”).  
 2️⃣ The **Perplexity API** calculates the **calories & macros**.  
