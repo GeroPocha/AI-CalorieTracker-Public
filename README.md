@@ -22,6 +22,14 @@ This is the **frontend** for my AI-powered calorie tracking system, built with (
 ### **n8n Workflow**  
 - **Automation Workflow:** ![image](/public/N8N%20Flow.jpg)
 
+The **n8n workflow** automates the entire process, making calorie tracking effortless. It consists of **two separate paths**, each triggered by a different **iOS shortcut**:
+
+1. **Speech / Text Input Path**: This workflow is triggered when you **tell Siri what you ate**. It sends the input to **Perplexity API**, which returns the calories and macronutrient breakdown. The response is then processed and stored in **Supabase**.
+
+2. **Barcode Scanning Path**: When scanning a barcode on your Iphone, the label is read and processed via the **Open Food Facts API**, the workflow retrieves the nutritional data for the exact product scanned. The extracted information is processed and saved in **Supabase**.
+
+Both paths merge into a final **Supabase storage step**, ensuring all meal logs are available in the **interactive dashboard**. The final response is sent back via a webhook, providing immediate feedback if needed.
+
 ---
 
 ## 🧪 Tech Stack  
