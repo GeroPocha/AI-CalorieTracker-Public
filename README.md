@@ -18,7 +18,7 @@ This is the **frontend** for my AI-powered calorie tracking system, built with (
 - **Log Food via Barcode:** [Here](https://www.icloud.com/shortcuts/de1f9eb675704dc8a124a14def278991) 
 
 ### **n8n Workflow**  
-- **Automation Workflow:** ![image](/calorietracker/public/N8N%20Flow.jpg)
+- **Automation Workflow:** ![image](/public/N8N%20Flow.jpg)
 
 ---
 
